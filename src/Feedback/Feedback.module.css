@@ -1,0 +1,12 @@
+
+.Controls{display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.Statistic{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+margin-bottom: 30px;
+
+}

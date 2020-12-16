@@ -4,10 +4,7 @@ import styles from './FeedbackOptions.module.css';
 
 const Controls = ({ options, onLeaveFeedback }) => {
   console.log(options);
-
   return options.map(type => {
-    console.log(type);
-
     return (
       <div key={type}>
         <button

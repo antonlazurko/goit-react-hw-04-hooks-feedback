@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import styles from './FeedbackOptions.module.css';
 
 const Controls = ({ options, onLeaveFeedback }) => {
-  console.log(options);
   return options.map(type => {
     return (
       <div key={type}>

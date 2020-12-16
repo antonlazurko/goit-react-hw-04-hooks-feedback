@@ -3,7 +3,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Statistic = props => {
-  console.log(props);
   const types = Object.keys(props);
   return types.map(type => {
     return (
